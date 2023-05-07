@@ -11,11 +11,11 @@ typeof db.inspections.findOne({"business_name" : "ACME Explosives"}).business_na
 db.inspections.countDocuments({result : "Violation Issued"})
 
 // 5 ------------------------------------
-load("/home/matthewsandov_snhu/Desktop/Mod-2_Update.js")
+load("/home/matthewsandov_snhu/Desktop/Mod-2/Mod-2_Update.js")
 db.inspections.find({"id" : "20032-2020-ACME"})
 
 // 6 ------------------------------------
-load("/home/matthewsandov_snhu/Desktop/Mod-2_Update_all.js")
+load("/home/matthewsandov_snhu/Desktop/Mod-2/Mod-2_Update_all.js")
 db.inspections.deleteOne( {$and: [{"result" : "Violation Issued"}, {"address.city" : "ROSEDALE"}]})
 
 
