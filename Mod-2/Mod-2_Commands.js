@@ -1,5 +1,5 @@
 // 3 -----------------------------------
-load("/desktop/Mod-2/Mod-2_Insert.js")
+load("~/Desktop/Mod-2/Mod-2_Insert.js")
 db.inspections.find({"id" : "20032-2020-ACME"})
 
 // 4 -----------------------------------
@@ -29,7 +29,8 @@ db.inspections.find({result : "Violation Issued"})
 
 db.inspections.find({"address.city" : "ROSEDALE"})
 
-db.inspections.find({"id" : "20032-2020-ACME"}) db.inspections.remove({"id" : "20032-2020-ACME"})
+db.inspections.find({"id" : "20032-2020-ACME"}) 
+db.inspections.remove({"id" : "20032-2020-ACME"})
 
 db.inspections.deleteOne({"result" : "Violation Issued"})
 
