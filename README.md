@@ -1,7 +1,11 @@
 How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+
 I really enjoyed creating the CRUD module. I learned that a well-written module can be used in many projects. This saves time writing and testing code; reusing modules also leads to more consistency code which is easier to maintain. Since I intend on reusing the CRUD module, I made sure to comment on every action so in the future, I can remember how the module works. 
+
 How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+
 I am refining my project management skills in every course. I find it essential to read the requirements and the rubric carefully, then securitize the mean of each sentence. Understanding what the customer expects from the project before beginning is vital. Once I know the requirements, I create a "to-do" list in the code's comments, which helps me stay on track. Before delivering the project, I reread the requirements and asked myself, "Does my code meet the customers' expectations?".
 
-<span style="color: orange;"> What do computer scientists do, and why does it matter? How would your work on this type of project help a company like Grazioso Salvare to do its work better? </span> 
+<h2> What do computer scientists do, and why does it matter? How would your work on this type of project help a company like Grazioso Salvare to do its work better? </h2> 
+
 Computer scientists are the backbone of society. They are the ones writing the code to fly airplanes, analyze data to predict pandemics, and write the code that keeps the power on. This project could be essential for a company like Grazioso Salvare. Grazios Salvare's mission is to train dogs; without dogs, there is no Grazios Salvare. This project could save hundreds of work hours identifying canine candidates. This out the querying capabilities of MongoDB, the thousands of records would have to be reviewed manually.
